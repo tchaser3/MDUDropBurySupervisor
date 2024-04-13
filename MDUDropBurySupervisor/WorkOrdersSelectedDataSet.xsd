@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="WorkOrdersSelectedDataSet" targetNamespace="http://tempuri.org/WorkOrdersSelectedDataSet.xsd" xmlns:mstns="http://tempuri.org/WorkOrdersSelectedDataSet.xsd" xmlns="http://tempuri.org/WorkOrdersSelectedDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="WorkOrdersSelectedDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="WorkOrdersSelectedDataSet" msprop:Generator_UserDSName="WorkOrdersSelectedDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="workorders" msprop:Generator_TableClassName="workordersDataTable" msprop:Generator_TableVarName="tableworkorders" msprop:Generator_TablePropName="workorders" msprop:Generator_RowDeletingName="workordersRowDeleting" msprop:Generator_RowChangingName="workordersRowChanging" msprop:Generator_RowEvHandlerName="workordersRowChangeEventHandler" msprop:Generator_RowDeletedName="workordersRowDeleted" msprop:Generator_UserTableName="workorders" msprop:Generator_RowChangedName="workordersRowChanged" msprop:Generator_RowEvArgName="workordersRowChangeEvent" msprop:Generator_RowClassName="workordersRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Orders" msprop:Generator_ColumnVarNameInTable="columnOrders" msprop:Generator_ColumnPropNameInRow="Orders" msprop:Generator_ColumnPropNameInTable="OrdersColumn" msprop:Generator_UserColumnName="Orders" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
